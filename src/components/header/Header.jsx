@@ -1,5 +1,5 @@
 import './header.css'
-import nature from '../imgs/nature.jpg'
+import nature from '../../imgs/nature.jpg'
 export const Header = () => {
     return (
         <div className='header'>

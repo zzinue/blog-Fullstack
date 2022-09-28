@@ -1,5 +1,5 @@
 import './post.css'
-import animalHuman from '../imgs/animalshumans.jpg'
+import animalHuman from '../../imgs/animalshumans.jpg'
 
 export const Post = () => {
     return (
@@ -15,6 +15,9 @@ export const Post = () => {
                 <hr />
                 <span className="postDate">1 hour ago</span>
             </div>
+            <p className="postDesc">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda repudiandae reprehenderit expedita earum amet minima tempore, iure nostrum exercitationem quos ratione accusantium error dolore recusandae quasi quam modi delectus vel, distinctio eveniet? Asperiores necessitatibus voluptates modi eius, vitae nisi cupiditate beatae officia? Facere, eum ea!
+            </p>
         </div>
     )
 }

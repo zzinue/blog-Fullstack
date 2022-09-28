@@ -1,5 +1,5 @@
 import './sidebar.css'
-import dogperson from '../imgs/dogperson.jpg'
+import dogperson from '../../imgs/dogperson.jpg'
 export const Sidebar = () => {
     return (
         <div className='sidebar'>
