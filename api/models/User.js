@@ -17,7 +17,7 @@ const UserSchema = new mongoose.Schema({
     },
     profilePic: {
         type: String,
-        defualt: '',
+        default: "",
     },
 }, { timestamps: true })
 module.exports = mongoose.model('User', UserSchema)
